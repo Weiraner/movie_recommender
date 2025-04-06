@@ -6,3 +6,4 @@
 # 忽略 VSCode 设置等
 .vscode/
 __pycache__/
+.DS_Store
