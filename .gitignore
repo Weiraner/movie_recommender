@@ -1,0 +1,8 @@
+# 忽略 SQLite 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 忽略 VSCode 设置等
+.vscode/
+__pycache__/
