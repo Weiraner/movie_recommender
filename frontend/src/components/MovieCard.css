@@ -1,0 +1,81 @@
+.movie-card {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s;
+    margin: 0 auto;
+  }
+  
+  .movie-card:hover {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .movie-img {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  .movie-info {
+    flex: 1;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.4;
+    min-height: 2.8em;
+  }
+  
+  .rating {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .stars {
+    margin-left: 8px;
+    color: gold;
+  }
+  
+  .genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  
+  .genre-tag {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-size: 12px;
+    color: #333;
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
